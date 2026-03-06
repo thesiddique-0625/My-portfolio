@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ---------- META TAGS (SEO & SOCIAL) ---------- -->
+    <title>Mohammad Hamza | Web Developer</title>
+    <meta name="description" content="I’m Mohammad Hamza – a front‑end focused web developer building fast, accessible and beautiful websites.">
+    <meta name="keywords" content="web developer, frontend, react, nextjs, portfolio, aligarh">
+    <meta name="author" content="Mohammad Hamza">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hamza-portfolio-self.vercel.app">
+    <meta property="og:title" content="Mohammad Hamza | Web Developer">
+    <meta property="og:description" content="A front‑end focused web developer building fast, accessible and beautiful websites.">
+    <meta property="og:image" content="/assets/img/Me.jpeg"> <!-- replace with your image URL -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hamza-portfolio-self.vercel.app">
+    <meta property="twitter:title" content="Mohammad Hamza | Web Developer">
+    <meta property="twitter:description" content="A front‑end focused web developer building fast, accessible and beautiful websites.">
+    <meta property="twitter:image" content="/assets/img/Me.jpeg"> <!-- replace -->
+
+    <!-- Favicon (place your favicon files in assets/favicon/) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/favicon.ico">
+
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- Content Protection Script -->
+    <script src="assets/protection.js" ></script>
+
+</head>
+<body>
+
+    <!-- Preloader -->
+    <body class="preloader-active"></body>
+    <div id="preloader">
+        <div class="ai-matrix-loader">
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="digit">1</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">1</div>
+            <div class="glow"></div>
+        </div>
+    </div>
+
+    <!-- DECORATIVE BACKGROUND SVG -->
+    <div class="hero-bg-svg">
+        <svg viewBox="0 0 800 600" preserveAspectRatio="none">
+            <circle class="floating-circle" cx="150" cy="150" r="60" fill="none" stroke="var(--cyprus)" stroke-width="2" opacity="0.2" />
+            <circle class="floating-circle" cx="650" cy="200" r="80" fill="none" stroke="var(--cyprus)" stroke-width="2" opacity="0.2" />
+            <circle class="floating-circle" cx="500" cy="400" r="100" fill="none" stroke="var(--cyprus)" stroke-width="2" opacity="0.2" />
+        </svg>
+    </div>
+
+    <!-- NAVBAR with only laptop icon -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="assets/img/logo.png" alt="Mohammad Hamza" class="logo-img">
+                <span class="logo-text">Mohammad Hamza</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#qualifications">Qualifications</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="mobile-menu" id="mobileMenu"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- HERO / HOME -->
+    <section id="home" class="hero">
+        <!-- Background image overlay (low opacity) -->
+        <div class="hero-bg-image"></div>
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <!-- Breadcrumb -->
+                <div class="breadcrumb">
+                    <span>Home</span> <i class="fas fa-chevron-right"></i> <span>Welcome</span>
+                </div>
+                <span class="badge">Web Developer & Designer</span>
+                <h1>Crafting digital experiences with elegance</h1>
+                <p>I’m Mohammad Hamza – I build fast, accessible and beautiful websites that leave a lasting impression.</p>
+                <div>
+                    <a href="#projects" class="btn">View work <i class="fas fa-arrow-right" style="margin-left: 8px;"></i></a>
+                    <a href="#contact" class="btn btn-outline">Let’s talk</a>
+                </div>
+            </div>
+            <div class="hero-image reveal">
+                <div class="avatar-ring"></div>
+                <!-- Your photo -->
+                <div class="hero-image-inner" style="background-image: url('assets/img/Me.jpeg');"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="reveal">About me</h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>I’m a front‑end focused web developer with a passion for turning complex problems into simple, intuitive interfaces. With 3+ years of experience, I’ve helped startups and established brands build web solutions that users love.</p>
+                    <p>My approach combines clean code, thoughtful design and a dash of creativity. I believe that every pixel matters.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Tailwind</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item reveal">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years of experience</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Projects completed</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Happy clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUALIFICATIONS -->
+    <section id="qualifications" class="qualifications">
+        <div class="qual-bg-image"></div> 
+        <div class="container">
+            <h2 class="reveal">Qualifications</h2>
+            <div class="qual-grid">
+                <div class="qual-card reveal">
+                    <i class="fas fa-university"></i>
+                    <h3>Pre-Matrics</h3>
+                    <p>St. Thomas School • 2024 - 2024</p>
+                    <span class="qual-badge">Class 10</span>
+                </div>
+                <div class="qual-card reveal">
+                    <i class="fas fa-university"></i>
+                    <h3>Post-Matrics</h3>
+                    <p>N. S. International • 2025 - 2026</p>
+                    <span class="qual-badge">Class 12</span>
+                </div>
+                <div class="qual-card reveal">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Web Development Intern</h3>
+                    <p>The Nextwork • 2025</p>
+                    <span class="qual-badge">Paid Internship</span>
+                </div>
+                <div class="qual-card reveal">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Freelance Web Developer</h3>
+                    <p>Client Projects • 2025 - 2026</p>
+                    <span class="qual-badge">Experience</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS (with website logos) -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="reveal">Selected projects</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="assets/projects/nextwork.png" alt="thenextwork.in logo" class="project-logo">
+                    </div>
+                    <div class="project-content">
+                        <h3>The Nextwork</h3>
+                        <p>Professional website for a Digital Marketing Agency. Built with HTML5, CSS3 and JavaScript.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://thenextwork.in" target="_blank" class="project-link">Live preview <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="assets/projects/mfdresses.png" alt="mfdresses.in logo" class="project-logo">
+                    </div>
+                    <div class="project-content">
+                        <h3>MF Dresses</h3>
+                        <p>Static E‑commerce website for a fashion brand – fast, mobile‑first shopping experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://mfdresses.in" target="_blank" class="project-link">Live preview <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="assets/projects/iscjava.png" alt="icsjava.online logo" class="project-logo">
+                    </div>
+                    <div class="project-content">
+                        <h3>ISC Java</h3>
+                        <p>Interactive platform to learn Java – coding challenges and tutorials for beginners and students.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Tailwind</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://iscjava.online" target="_blank" class="project-link">Live preview <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="assets/projects/localreach.png" alt="localreach.in logo" class="project-logo">
+                    </div>
+                    <div class="project-content">
+                        <h3>LocalReach</h3>
+                        <p>Professional website for a business that provides Support to Small Businesses presenting online.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://localreach.in" target="_blank" class="project-link">Live preview <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <div class="contact-info reveal">
+                <h3>Let’s create something great together</h3>
+                <p>Have a project in mind? I’d love to hear about it. Drop me a message and I’ll get back as soon as possible.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <strong>Email:</strong> <a href="mailto:hamza.createsweb@gmail.com">hamza.createsweb@gmail.com</a>
+                        </span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>
+                            <strong>Phone:</strong> <a href="tel:+916307604170">+91 63076 04170</a>
+                        </span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span><strong>Location:</strong> Aligarh, India</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/thesiddique_06.25" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/thesiddique0625" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://github.com/thesiddique-0625" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/thesiddique0625" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/916307604170?text=Hello%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20web%20development%20services." target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="contact-form reveal">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send message</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCROLL TO TOP BUTTON -->
+    <button id="scrollToTop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Mohammad Hamza – Web Developer. Created with <i class="fas fa-heart" style="color: #F0EDE5;"></i></p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="assets/script.js"></script>
+</body>
+</html>
