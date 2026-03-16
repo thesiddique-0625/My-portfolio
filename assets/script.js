@@ -42,7 +42,7 @@ if (scrollBtn) {
 
 // ---------- GOOGLE SHEETS INTEGRATION (FIXED) ----------
 // REPLACE WITH YOUR DEPLOYED GOOGLE APPS SCRIPT URL
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwtd_vMCtNTa3tScJExqkyM9viFwMy2cPfVbm2I83bnBMlegu3-tRYC2ME7fGC5u7l2/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwnPL6L9EsAbHSNfRlDNBPadI_SWQpiOT6r0XFQnRWgXcR6GPL2hu6gSnDpj2UCYYoU/exec';
 
 const form = document.getElementById('contact-form');
 const formStatus = document.getElementById('form-status');
